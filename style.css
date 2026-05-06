@@ -1,0 +1,215 @@
+/* GLOBAL  */
+
+body{
+    background:#f5f7fa; /* clean neutral instead of gradient */
+    min-height:100vh;
+    font-family: 'Segoe UI', Roboto, sans-serif;
+    margin:0;
+    color:#2c3e50;
+}
+
+/*LAYOUT  */
+
+.page-container{
+    padding:30px 40px;
+    flex:1;
+}
+
+.page-title{
+    font-size:26px;
+    font-weight:600;
+    color:#1f2937;
+    margin-bottom:25px;
+}
+
+/*CARD (MODERN ERP STYLE)  */
+
+.card{
+    background:#ffffff;
+    padding:20px;
+    border-radius:10px;
+    border:1px solid #e5e7eb;
+    box-shadow:0 2px 6px rgba(0,0,0,0.04);
+}
+
+/* DASHBOARD STAT BOXES  */
+
+.stat-card{
+    padding:20px;
+    border-radius:10px;
+    color:white;
+    font-weight:500;
+    box-shadow:0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* muted professional colors */
+.stat-blue{
+    background:#3b82f6; /* softer blue */
+}
+
+.stat-orange{
+    background:#f59e0b; /* school/admin feel */
+}
+
+.stat-red{
+    background:#ef4444;
+}
+
+.stat-green{
+    background:#10b981;
+}
+
+/* BUTTONS (LESS TOY-LIKE)  */
+
+.btn{
+    padding:10px 18px;
+    border-radius:6px;
+    color:white;
+    text-decoration:none;
+    display:inline-block;
+    transition:0.2s;
+    cursor:pointer;
+    border:none;
+    font-size:14px;
+    font-weight:500;
+}
+
+/* primary */
+.btn-blue{
+    background:#3b82f6;
+}
+.btn-blue:hover{
+    background:#2563eb;
+}
+
+/* success */
+.btn-green{
+    background:#10b981;
+}
+.btn-green:hover{
+    background:#059669;
+}
+
+/* warning (better than random colors) */
+.btn-orange{
+    background:#f59e0b;
+}
+.btn-orange:hover{
+    background:#d97706;
+}
+
+/* danger */
+.btn-red{
+    background:#ef4444;
+}
+.btn-red:hover{
+    background:#dc2626;
+}
+
+/* neutral */
+.btn-gray{
+    background:#6b7280;
+}
+.btn-gray:hover{
+    background:#4b5563;
+}
+
+/*  INPUTS */
+
+.input{
+    width:100%;
+    padding:10px;
+    border-radius:6px;
+    border:1px solid #d1d5db;
+    margin-bottom:15px;
+    background:#fff;
+}
+
+.input:focus{
+    outline:none;
+    border-color:#3b82f6;
+    box-shadow:0 0 0 2px rgba(59,130,246,0.15);
+}
+
+/*  TABLES */
+
+.table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+    border-radius:8px;
+    overflow:hidden;
+    border:1px solid #e5e7eb;
+}
+
+.table th{
+    background:#f9fafb;
+    padding:12px;
+    text-align:left;
+    font-size:13px;
+    color:#6b7280;
+    font-weight:600;
+}
+
+.table td{
+    padding:12px;
+    border-top:1px solid #e5e7eb;
+}
+
+.table tr:hover{
+    background:#f3f4f6;
+}
+
+/* SIDEBAR*/
+
+.sidebar{
+    width:240px;
+    background:#1f2937; /* dark professional */
+    color:#d1d5db;
+    min-height:100vh;
+    padding:20px 15px;
+}
+
+.sidebar-title{
+    font-size:18px;
+    font-weight:600;
+    margin-bottom:25px;
+    color:white;
+}
+
+/* menu items */
+.sidebar a{
+    display:flex;
+    align-items:center;
+    padding:12px 14px;
+    border-radius:8px;
+    margin-bottom:6px;
+    color:#d1d5db;
+    text-decoration:none;
+    transition:0.2s;
+}
+
+/* hover */
+.sidebar a:hover{
+    background:#374151;
+    color:white;
+}
+
+/* active (IMPORTANT for real feel) */
+.sidebar a.active{
+    background:#4b5563;
+    color:white;
+}
+
+/* logout button */
+.logout-btn{
+    margin-top:30px;
+    background:#ef4444;
+    text-align:center;
+    padding:10px;
+    border-radius:8px;
+    color:white;
+}
+.logout-btn:hover{
+    background:#dc2626;
+}
